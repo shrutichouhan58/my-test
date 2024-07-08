@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.form-controller{
+  margin: auto;
+  padding: 10px;
+  background-color: #61dafb;
+}
+.btn-signup{
+  margin-top: 20px;
+}
