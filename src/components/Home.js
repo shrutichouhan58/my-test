@@ -36,9 +36,10 @@ const Home = () => {
     formDataToSend.append("name", formData.name);
     formDataToSend.append("gender", formData.gender);
     formDataToSend.append("email", formData.email);
-    formDataToSend.append("password", formData.password);
+    formDataToSend.append("password", formData.password)
     formDataToSend.append("confirm-password", formData.confirmPassword);
-  
+    formDataToSend.append("phone", formData.phoneNumber);
+
     try {
       const apiUrl = 'http://13.50.172.202:3001/v0/registrationForWeb';
       const response = await fetch(apiUrl, {
